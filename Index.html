@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+      <script
+    src="https://example.com/fontawesome/vVERSION/js/all.js"
+    data-search-pseudo-elements
+  ></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Trends</h1>
+            </div>
+            <ul>
+                <li>
+                    <a id="home" onclick="homes()">Home</a>
+                    <a id="shop"   onclick="shops()">Shops</a>
+                    <a id="blog"  onclick="blogs()">Blog</a>
+                    <a id="about" onclick="abouts()">About</a>
+                    <a id="contact" onclick="Contacts()">Contact</a>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                   
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main page-->
+        <div class="main">
+            <div class="mainText">
+                <h2>Trends</h2>
+                <h1 class="top">Super Value Deals</h1> 
+                <h1>On All Products</h1> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button>Explore</button>
+            </div>
+            <img src="m3.png" alt="">
+        </div>
+
+       <!--Cards-->
+
+         <div class="trend">
+            <div class="head">
+                <h1>Trends  <span>Men's Wear</span></h1>
+            </div>
+
+            <div class="card">
+                <div class="crd">
+                    <img src="str1.png" alt="" onclick="show(this)">
+                   <div class="crdText">
+                    <h2>Cotton Trending Shirts</h2>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i> <br>
+                    <button>Add to Cart</button>
+                   </div>
+                </div>
+
+
+                <div class="crd">
+                    <img src="srt2.png" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Cotton Trending Shirts</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                       </div>
+                </div>
+
+                <div class="crd">
+                    <img src="str3.png" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Cotton Trending Shirts</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                       </div>
+                </div>
+
+            </div>
+         </div>
+
+         <!-- Women Trends-->
+
+        <div class="trend" id="trendSec">
+            <div class="head">
+                <h1>Trends  <span>Women's Wear</span></h1>
+            </div>
+
+            <div class="card">
+                <div class="crd">
+                    <img src="wn1.png" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Girl's Top</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="crd">
+                    <img src="wn2.png" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Girl's Top</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="wn6.png" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Girl's Top</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--About us-->
+        <div class="about">
+           
+            <div class="aboutus">
+                <h1>#KnowUS</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+
+            <div class="me">
+                <img src="lap.png" alt="">
+                <div class="aboutText">
+                    <h1>Who we are ?</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptate, aspernatur adipisci aperiam ab expedita ex repudiandae quas ad officiis porro perferendis eaque laborum inventore accusantium dolor reiciendis enim nam.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- contact -->
+        <div class="contact">
+           
+            <div class="contactus">
+                <h1>#Let's Connect</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+
+            <div class="contactMe">
+                    <div class="contactText">
+                    <h1>Visit  Our Office or Contact <br>
+                        Us Today  </h1>
+                   
+                    <p>Address: Dharashiv, Maharastra, India</p>
+                    <p>Contact: Karanbitalkar@gmail.com</p>
+                    <p>9552462557</p>
+                
+                </div>
+                <img src="map.PNG" alt="">
+            </div>
+
+            <div class="form">
+                <h1>Connect with Us. Fill Form</h1>
+                <input type="text" placeholder="Enter Your FirstName"> <br>
+                <input type="text" placeholder="Enter Your LastName "> <br>
+                <input type="text" placeholder="Enter Your Email"> <br>
+                <input type="text" placeholder="Enter Your Number"> <br>
+                <input type="text" placeholder="Enter Your Address"> <br>
+                <button>Submit</button>
+            </div>
+
+
+        </div>
+         
+        <!--Cart-->
+        <div class="cart">
+            <img id="newImg"  src="" alt="">
+            <div class="cartText">
+                <h1>Trends Offer : Trending Shop <br>
+                    NOW </h1>
+                    <h2>Special Price</h2>
+                    <h2>$11</h2>
+                    <p>Men's Long Sleeve Polo Shirt Quick Dry</p>
+                    <p>Performance Tactical Shirts Daily Casual Stylish</p>
+                    <p>Collared Shirts for Men</p>
+                    <div class="btn">
+                        <button>Buy Now</button>
+                        <button onclick="addCart()">Add to Cart</button>
+                    </div>
+                    <button class="back">Back</button>
+            </div>
+        </div>
+
+
+        <!--Blogs-->
+
+        <div class="trends">
+            <div class="head">
+                <h1>Trends  <span>Men's Wear</span></h1>
+            </div>
+           <div class="card">
+               <div class="blog">
+                  <img src="bl1.png" alt="">
+                  <div class="blogText">
+                        <h2>Trending Girl Cloths</h2>
+                        <p>Women Printed Crepe Anarkali Kurta</p>
+                        <a href="https://www.flipkart.com/river-cloth-women-kurta-palazzo-set/p/itma9206589bd32c?pid=ETHGM3ZCGPDB3PT6&marketplace=FLIPKART">Read More</a>
+                  </div>
+               </div>
+
+               <div class="blog">
+                <img src="Tm.png" alt="">
+                <div class="blogText">
+                      <h2>Trending Boys Cloths</h2>
+                      <p>Men Regular Fit Self Design Spread Collar Formal Shirt</p>
+                      <a href="https://www.flipkart.com/black-deer-men-self-design-formal-dark-blue-shirt/p/itm11f9adca59697?pid=SHTGXMYQRD6GMWWS&lid=LSTSHTGXMYQRD6GMWWSLBI3WO&marketplace=FLIPKART&store=clo%2Fash%2Faxc%2Fmmk%2Fbk1&srno=b_1_12&otracker=sp_browse_announcement_search.flipkart.com&fm=Search&iid=40fefd3b-71dd-4695-a7c3-01c6f058c97d.SHTGXMYQRD6GMWWS.SEARCH&ppt=browse&ppn=browse&ssid=0so2603nqo0000001740140901068">Read More</a>
+                </div>
+             </div>
+
+           </div>
+
+        </div>
+
+        <!--Letter-->
+        <div class="letter">
+            <div class="leterText">
+                <h1>Sign Up for NewsLetter</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="inp">
+                <input type="text" placeholder="Enter Email">
+                <button>Sign Up</button>
+            </div>
+        </div>
+      
+
+        <!--Footer-->
+       <div class="footer">
+             <div class="footerText">
+                <h2>Trends</h2>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Satisfation</p>
+                <p></p>
+
+             </div>
+
+             <div class="footerText">
+                <h2>About US</h2>
+                <p>Addres: At.Post.Takviki <br>
+                   Dharashiv, 413506 <br>
+                   Maharastra India  </p> 
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Satisfation</p>
+
+             </div>
+
+             <div class="footerText">
+                <h2>Connect with Us</h2>
+                <p>Facebook</p>
+                <p>Instagram</p>
+                <p>WhatsApp</p>
+                <p>9552462557</p>
+
+             </div>
+
+             <div class="footerText">
+                <h2>Trending</h2>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Shops</p>
+                <p>New Arriwal</p>
+
+             </div>
+
+       </div>
+
+    </div>
+   <script src="web.js"></script>
+</body>
+</html>
